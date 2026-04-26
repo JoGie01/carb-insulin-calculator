@@ -25,6 +25,16 @@ It was built as a personal project to improve my skills in:
 
 ---
 
+## Project Status
+
+- Core functionality: complete
+- JSON persistence: implemented
+- Unit tests: implemented
+- CLI interface: implemented
+- Recipe system: planned (not fully implemented)
+
+---
+
 ## Tech Stack
 
 - Java 17+
@@ -38,12 +48,14 @@ It was built as a personal project to improve my skills in:
 ## How to run
 
 ```bash
-./gradlew run
+./gradlew build
 ```
-On Windows
-```bash
-gradlew.bat run
-```
+### Run recommended via IDE 
+Run the Main class directly in your IDE: `proto.Main `
+
+### Note on Gradle run
+Running the application via `./gradlew run` may not work reliably in all terminals, because interactive console input (Scanner) is not always properly supported in Gradle execution.
+
 ---
 
 ## Sample Data
@@ -61,4 +73,7 @@ A sample `foods.json` file is included with example entries to test the applicat
 ---
 
 ## Author
-Joachim Gierke | Games Engineering Student at TUM
+Joachim Gierke  
+Games Engineering Student at TUM
+
+---
