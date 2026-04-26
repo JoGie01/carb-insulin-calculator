@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 # Ignore Gradle project-specific cache directory
 .gradle
 
 # Ignore Gradle build output directory
 build
-=======
 # Compiled class file
 *.class
 
@@ -29,4 +27,3 @@ build
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
->>>>>>> 2f0f6dea0b6cda38ad28f00e12a6ab15610d18b5
